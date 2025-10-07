@@ -13,7 +13,7 @@ try {
         answerCheckAmount = await rl.question("Invalid Answer. Please enter a number. If there is a penny amount, please separate it with a dot. ");
     }
     const checkAmount = +answerCheckAmount;
-    let answerPercentageTip = await rl.question("What percentage of tip will you give? (e.g., 15 for 15%) ");
+    let answerPercentageTip = await rl.question("Whatiii percentage of tip will you give? (e.g., 15 for 15%) ");
     while (isNaN(+answerPercentageTip)) {
         answerPercentageTip = await rl.question("Invalid Answer. Please enter a number. If necessary please separate the numbers with a dot. ");
     }

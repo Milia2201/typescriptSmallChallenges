@@ -74,6 +74,7 @@ try {
         );
     }
   }
-} finally {
-  rl.close();
+} catch (e) {
+  console.error(e);
+  /* rl.close() */;
 }
