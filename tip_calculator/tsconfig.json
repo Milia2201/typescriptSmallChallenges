@@ -11,5 +11,6 @@
     "esModuleInterop": true, // ➡️ Helps with importing modules
     "skipLibCheck": true, // ➡️ Skips type-checking declaration files
     "forceConsistentCasingInFileNames": true // ➡️ Enforce case-sensitive file names
+    
   }
 } 

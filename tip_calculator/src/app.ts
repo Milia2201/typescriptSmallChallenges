@@ -48,7 +48,8 @@ try {
         );
         while (
           isNaN(+answerAmountPeople) ||
-          !Number.isInteger(+answerAmountPeople)
+          !Number.isInteger(+answerAmountPeople) ||
+          Number(answerAmountPeople) <= 0
         ) {
           answerAmountPeople = await rl.question(
             "Please enter a full number. "

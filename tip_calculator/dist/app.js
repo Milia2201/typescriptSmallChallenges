@@ -28,7 +28,8 @@ try {
             case "yes":
                 let answerAmountPeople = await rl.question("How many people will split the bill? ");
                 while (isNaN(+answerAmountPeople) ||
-                    !Number.isInteger(+answerAmountPeople)) {
+                    !Number.isInteger(+answerAmountPeople) ||
+                    Number(answerAmountPeople) <= 0) {
                     answerAmountPeople = await rl.question("Please enter a full number. ");
                 }
                 const amountPeople = +answerAmountPeople;
