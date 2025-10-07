@@ -1,0 +1,15 @@
+
+
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+   "compilerOptions": {
+    "target": "ES2020", // ➡️ Which JS version to compile to
+    "module": "es2022", // ➡️ How to handle module imports/exports
+    "outDir": "./dist", // ➡️ Where to put the generated .js files
+    "rootDir": "./src", // ➡️ Where your original .ts files are
+    "strict": true, // ➡️ Enables all strict type-checking options (RECOMMENDED!)
+    "esModuleInterop": true, // ➡️ Helps with importing modules
+    "skipLibCheck": true, // ➡️ Skips type-checking declaration files
+    "forceConsistentCasingInFileNames": true // ➡️ Enforce case-sensitive file names
+  }
+} 
